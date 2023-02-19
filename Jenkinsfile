@@ -41,7 +41,7 @@ pipeline{
               stage('Build Stockmanager Maven App'){
               steps{
                   script{
-		   sh "mvn clean install  -f stockmanager/pom.xml"
+		   sh "mvn clean install"
                        }
                     }
                  }
